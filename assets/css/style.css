@@ -261,8 +261,8 @@ input[type=number] {
 .interes-done-btn a {
     width: 345px;
     height: 48px;
-    background: transparent;              
-    border: 1.5px solid #6b381a;          
+    background: transparent;              /* transparan */
+    border: 1.5px solid #6b381a;          /* border coklat */
     border-radius: 8px;
     display: flex;
     align-items: center;
@@ -273,11 +273,11 @@ input[type=number] {
     line-height: 24px;
     margin: auto;
     text-decoration: none;
-    color: #6b381a;                       
-    transition: all 0.3s ease;            
+    color: #6b381a;                       /* teks coklat */
+    transition: all 0.3s ease;            /* animasi halus */
 }
 
-/* hover */
+/* efek hover */
 .splash_bottom a:hover,
 .sign-in a:hover,
 .sign-up a:hover,
@@ -293,61 +293,8 @@ input[type=number] {
 .Backtohome a:hover,
 .checkout-buy-now-btn a:hover,
 .interes-done-btn a:hover {
-    background: #6b381a !important;
-    color: #FFFFFF !important;
-}
-
-/* hilangkan outline biru & ganti jadi putih */
-.splash_bottom a:focus,
-.splash_bottom a:active,
-.splash_bottom a:focus-visible,
-.sign-in a:focus,
-.sign-in a:active,
-.sign-in a:focus-visible,
-.sign-up a:focus,
-.sign-up a:active,
-.sign-up a:focus-visible,
-.send-btn a:focus,
-.send-btn a:active,
-.send-btn a:focus-visible,
-.set-password-btn a:focus,
-.set-password-btn a:active,
-.set-password-btn a:focus-visible,
-.Save-button a:focus,
-.Save-button a:active,
-.Save-button a:focus-visible,
-.review-btn a:focus,
-.review-btn a:active,
-.review-btn a:focus-visible,
-.select a:focus,
-.select a:active,
-.select a:focus-visible,
-.buy-now-btn a:focus,
-.buy-now-btn a:active,
-.buy-now-btn a:focus-visible,
-.filter-btn-apply a:focus,
-.filter-btn-apply a:active,
-.filter-btn-apply a:focus-visible,
-.product-submit a:focus,
-.product-submit a:active,
-.product-submit a:focus-visible,
-.pro-rate-submit a:focus,
-.pro-rate-submit a:active,
-.pro-rate-submit a:focus-visible,
-.Backtohome a:focus,
-.Backtohome a:active,
-.Backtohome a:focus-visible,
-.checkout-buy-now-btn a:focus,
-.checkout-buy-now-btn a:active,
-.checkout-buy-now-btn a:focus-visible,
-.interes-done-btn a:focus,
-.interes-done-btn a:active,
-.interes-done-btn a:focus-visible {
-    background: #6b381a !important;
-    color: #FFFFFF !important;
-    border-color: #6b381a !important;
-    outline: 2px solid #ffffff !important; /* outline putih */
-    outline-offset: 2px;
+    background: #6b381a !important;   /* isi coklat saat hover */
+    color: #FFFFFF !important;        /* teks putih saat hover */
 }
 
 .logo_sec {
