@@ -293,8 +293,8 @@ input[type=number] {
 .Backtohome a:hover,
 .checkout-buy-now-btn a:hover,
 .interes-done-btn a:hover {
-    background: #6b381a;   /* isi coklat saat hover */
-    color: #FFFFFF;        /* teks putih saat hover */
+    background: #6b381a !important;   /* isi coklat saat hover */
+    color: #FFFFFF !important;        /* teks putih saat hover */
 }
 
 
