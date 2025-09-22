@@ -253,32 +253,51 @@ input[type=number] {
 .review-btn a,
 .select a,
 .buy-now-btn a,
-.filter-btn-apply a ,
+.filter-btn-apply a,
 .product-submit a,
 .pro-rate-submit a,
 .Backtohome a,
 .checkout-buy-now-btn a,
-.interes-done-btn a{
+.interes-done-btn a {
     width: 345px;
     height: 48px;
-    background: #0EA5E9;
+    background: transparent;              /* transparan */
+    border: 1.5px solid #6b381a;          /* border coklat */
     border-radius: 8px;
     display: flex;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
     align-items: center;
     justify-content: center;
     font-family: 'Poppins';
-    font-style: normal;
     font-weight: 500;
     font-size: 18px;
     line-height: 24px;
     margin: auto;
     text-decoration: none;
-    color: #FFFFFF;
+    color: #6b381a;                       /* teks coklat */
+    transition: all 0.3s ease;            /* animasi halus */
 }
+
+/* efek hover */
+.splash_bottom a:hover,
+.sign-in a:hover,
+.sign-up a:hover,
+.send-btn a:hover,
+.set-password-btn a:hover,
+.Save-button a:hover,
+.review-btn a:hover,
+.select a:hover,
+.buy-now-btn a:hover,
+.filter-btn-apply a:hover,
+.product-submit a:hover,
+.pro-rate-submit a:hover,
+.Backtohome a:hover,
+.checkout-buy-now-btn a:hover,
+.interes-done-btn a:hover {
+    background: #6b381a;   /* isi coklat saat hover */
+    color: #FFFFFF;        /* teks putih saat hover */
+}
+
+
 .logo_sec {
     display: -webkit-box;
     display: -ms-flexbox;
