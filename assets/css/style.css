@@ -217,7 +217,7 @@ input[type=number] {
 
 /************************ 3.Splashscreen-index ***************************/
 #splashscreen{
-    background-image: url(../images/splashscreen/card.png);
+    background-image: url(../images/splashscreen/card.svg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
